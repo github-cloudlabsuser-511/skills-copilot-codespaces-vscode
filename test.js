@@ -31,7 +31,11 @@ class Calculator {
     }
 }
 
-// Usage
+// Create a new Calculator instance
 const calculator = new Calculator();
+
+// Perform a series of operations
 calculator.add(5).subtract(2).multiply(3).divide(2);
+
+// Output the result
 console.log(calculator.getResult()); // Outputs: 4.5

@@ -40,6 +40,7 @@ class Program
                 {
                     Console.WriteLine("Invalid choice. Try again.");
                 }
+            }
 
                 health -= 10;
                 if (health <= 0)
